@@ -7,8 +7,8 @@ Está escrita para los miembros del equipo que trabajan en Windows con PowerShel
 
 Datos del repositorio:
 
-- Remoto: `https://github.com/gabrielmib/demoblaze-playwright.git`
-- Propietario: `gabrielmib`
+- Remoto: `https://github.com/Ronald-Duran/demoblaze-playwright.git`
+- Propietario: `Ronald-Duran`
 - Visibilidad: **privado** (necesitas que el propietario te dé acceso)
 - Rama por defecto: `master`
 - Proyecto: Node.js + TypeScript + Playwright (`package.json` -> `name: demoblaze-playwright`)
@@ -36,7 +36,7 @@ Instala y verifica lo siguiente antes de empezar:
    ```
    Descárgalo desde https://git-scm.com/download/win si falta.
 
-3. **Una cuenta de GitHub** con acceso concedido por el propietario `gabrielmib` a este repositorio
+3. **Una cuenta de GitHub** con acceso concedido por el propietario `Ronald-Duran` a este repositorio
    privado (ver sección 4).
 
 4. **GitHub CLI (`gh`)**, opcional pero recomendado (lo usaremos para autenticación y para crear PRs).
@@ -197,20 +197,20 @@ o abrir Pull Requests manualmente. Es una función adicional para automatizar ta
 
 ## 4. Clonar el repositorio privado
 
-Como el repositorio es **privado** y su propietario es `gabrielmib`, primero el propietario debe
+Como el repositorio es **privado** y su propietario es `Ronald-Duran`, primero el propietario debe
 concederte acceso (agregarte como colaborador o a través de tu equipo/organización). Sin ese acceso,
 el clonado o el push fallarán con "permission denied" o "Repository not found".
 
 Una vez tengas acceso, clona con HTTPS:
 
 ```powershell
-git clone https://github.com/gabrielmib/demoblaze-playwright.git
+git clone https://github.com/Ronald-Duran/demoblaze-playwright.git
 ```
 
 O con SSH (si tienes tu llave SSH configurada en GitHub):
 
 ```powershell
-git clone git@github.com:gabrielmib/demoblaze-playwright.git
+git clone git@github.com:Ronald-Duran/demoblaze-playwright.git
 ```
 
 Entra al directorio y verifica la rama por defecto:
@@ -364,7 +364,7 @@ Buenas prácticas:
 ## 9. Solución de problemas común
 
 - **`Repository not found` o `permission denied` al clonar**: el repositorio es privado.
-  Pide al propietario `gabrielmib` que te conceda acceso. Verifica tu autenticación con
+  Pide al propietario `Ronald-Duran` que te conceda acceso. Verifica tu autenticación con
   `gh auth status`.
 - **`Permission denied` al hacer push**: revisa que estés autenticado (`gh auth status`) y que
   tu token tenga el scope `repo`. Si perteneces a una organización, puede requerir `read:org`.
